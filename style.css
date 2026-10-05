@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    
+}
+nav .left {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-left: 90px;
+}
+
+.logo{
+    height: 23px;
+}
+
+.nav-list1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ul{
+    list-style-type: none;
+    color: #262626;
+}
+.left a{
+    text-decoration: none;
+    color: #262626;
+    font-size: 13px;
+    white-space: nowrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right a{
+    text-decoration: none;
+    color: #262626;
+    font-size: 13px;
+    white-space: nowrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-list2 {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+nav .right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 90px;
+}
+.profile{
+    width: 30px;
+    height: 30px;
+    border: solid #262626 1px;
+    border-radius: 30px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+}
+.new-launches{
+    width: 100%;
+    height: 580px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Hero-Desktop-Surface-Portfolio-Snapdragon-Platinum-Standard?&resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3840&hei=2160&qlt=85&fit=constrain&dpr=on,2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.new-launch-content {
+    padding-left: 97px;
+    padding-top: 144px;
+}
+.new-button{
+    background-color: #FFB900;
+    border: #FFB900;
+    padding: 6px 16px 6px 16px;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 14px;
+}
+.new-launch-content h1{
+    margin-top: 6px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+}
+.new-launch-content p{
+    color: white;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.new-launches .learn-button{
+    border: white;
+    margin-top: 36px;
+    padding: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.service-links{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 42px;
+}
+.service-links a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #004275;
+    font-weight: 500;
+    text-decoration: none;
+}
+.service-links span{
+    border-bottom:solid #004275 3px;
+}
+.container-explore{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.container-explore .box{
+    width: 320px;
+    height: 430px;
+    background-color: white;
+    border-radius: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 9px;
+    border: solid #E8E8E8 2px;
+    display: flex;
+    flex-direction: column;
+}
+.container-explore .explore-boxes{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.container-explore img{
+    width: 300px;
+    height: 175px;
+    border-radius: 24px;
+}
+.container-explore h2{
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px;
+}
+.container-explore p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 0 0 16px;
+    font-size: 16px;
+    color: #17253D;
+    letter-spacing: -0.4px;
+}
+.container-explore .box-button{
+    background-color: #006DC1;
+    color: white;
+    border: none;
+    margin: auto 0 16px 16px;
+    padding: 12px 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border-radius: 8px;
+    font-size: 15px;
+    align-self: flex-start;
+}
+.container-design{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+
+}
+.box-design{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    margin: 60px 100px;
+    border-radius: 24px;
+    border: solid #E8E8E8 1px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 40px;
+}
+.box-left{
+    width: 50%;
+    border-radius: 24px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.design-text{
+    margin: auto 0;
+}
+.box-left h3{
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+.box-left p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #17253D;
+    padding-right: 40px;
+}
+.box-right{
+    width: 50%;
+    border-radius: 24px;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Card-Horizontal-Windows-11-Business-Transformation?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3840&hei=2160&qlt=95&fit=constrain");
+    background-position: center;
+    background-size: cover;
+}
+.pc-button{
+    background-color: #006DC1;
+    color: white;
+    border: none;
+    padding: 12px 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border-radius: 8px;
+    font-size: 15px;
+    align-self: flex-start;
+}
+.business-container{
+    width: 100%;
+    height: 635px;
+    background-color: #DCEEF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.business-container-text{
+    align-self: flex-start;
+    margin-left: 96px;
+}
+.business-container-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.business-boxes-list{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.business-container .box-button{
+    background-color: #006DC1;
+    color: white;
+    border: none;
+    padding: 12px 14px;
+    margin: auto 0 16px 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border-radius: 8px;
+    font-size: 14px;
+    align-self: flex-start;
+}
+.business-container .box{
+    width: 320px;
+    height: 480px;
+    background-color: white;
+    border-radius: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 9px;
+    border: solid #E8E8E8 2px;
+    display: flex;
+    flex-direction: column;
+}
+.business-container img{
+    width: 300px;
+    height: 175px;
+    border-radius: 24px;
+}
+.business-container h3{
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px;
+}
+.business-container p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 0 0 16px;
+    font-size: 16px;
+    color: #17253D;
+    letter-spacing: -0.4px;
+}
+.business-container h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+.box-right1{
+    width: 50%;
+    border-radius: 24px;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Card-Horizontal-AI-Sustainability-Less-Plastic?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3840&hei=2160&qlt=95&fit=constrain");
+    background-position: center;
+    background-size: cover;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 160px;
+    gap: 20px;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+footer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+footer li{
+    border: solid #E8E8E8 1px;
+    padding: 2px;
+    border-radius: 10px;
+}
+footer img{
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+}
